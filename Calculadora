@@ -1,27 +1,23 @@
+while True:
+    op = input("Qual Operação (+, -, *, /) você deseja fazer OU \'q\' para Sair: ")
+    if(op=="q" or op=="Q"):
+        break
+    elif(op=="+"or op=="-" or op=="*"or op=="/"):
+        n1 = float(input("Digite o primeiro numero da operação: "))
+        n2 = float(input("Digite o segundo numero da operação: "))
+    else:
+        Total = "Operação não Existe!!!"
+        print(Total)
 
-op = input("Qual Operação (+, -, *, /) você deseja faze: ")
-n1 = float(input("Digite o primeiro numero da operação: "))
-n2 = float(input("Digite o segundo numero da operação: "))
-
-if (op=="+"):
-    total=n1+n2
-    print(total)
-elif(op=="-"):
-    total=n1-n2
-    print(total)
-elif(op=="*"):
-    total=n1*n2
-    print(total)
-elif(op=="/"):
-    total=n1/n2
-    print(total)
-else:
-    Total = "Operação não Existe!!!"
-    print(Total)
-
-"""
-classe Calc:
-    def calcular(self, n1, n2):
-    self.n1=n1
-    self.n2=n2
-"""
+    if (op=="+"):
+        total=n1+n2
+        print(total)
+    elif(op=="-"):
+        total=n1-n2
+        print(total)
+    elif(op=="*"):
+        total=n1*n2
+        print(total)
+    elif(op=="/"):
+        total=n1/n2
+        print(total)
