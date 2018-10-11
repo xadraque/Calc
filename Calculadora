@@ -1,0 +1,26 @@
+
+op = input("Qual Operação (+, -, *, /) você deseja faze: ")
+n1 = flot(input("Digite o primeiro numero da operação: "))
+n2 = flot(input("Digite o segundo numero da operação: "))
+
+if (op=="+"):
+    total=n1+n2
+    print(total)
+    elif(op=="-")
+    total=n1-n2
+    print(total)
+    elif(op=="*")
+    total=n1*n2
+    print(total)
+    elif(op=="/")
+    total=n1/n2
+    print(total)
+elif()
+    Total
+
+"""
+classe Calc:
+    def calcular(self, n1, n2):
+    self.n1=n1
+    self.n2=n2
+"""
