@@ -37,3 +37,4 @@ while True:
     elif(op=="/"):
         total=n1/n2
         print(total)
+    print("O Valor da Operação ",n1,op,n2,": ",total)
