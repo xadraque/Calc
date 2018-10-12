@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc17ed3-6244-48c8-92ce-b24337f34a0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CalcVisual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalcKivy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalcularVisual" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,26 +29,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Calculadora" value="1" />
-          <entry key="py" value="1" />
+          <entry key="CalcularVisual" value="2" />
+          <entry key="py" value="5" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3945" />
+          <entry key="Python" value="3949" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Calculadora" value="2810" />
-          <entry key="py" value="1135" />
+          <entry key="CalcularVisual" value="1" />
+          <entry key="py" value="1138" />
         </counts>
       </usages-collector>
     </session>
@@ -54,25 +58,8 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CalcVisual.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="153" column="14" lean-forward="true" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
-              <folding>
-                <element signature="e#234#255#0" expanded="true" />
-                <marker date="1539381234044" expanded="true" signature="303:304" ph="..." />
-                <marker date="1539381234044" expanded="true" signature="337:338" ph="..." />
-                <marker date="1539381234044" expanded="true" signature="337:347" ph="..." />
-                <marker date="1539381234044" expanded="true" signature="2844:2847" ph="..." />
-                <marker date="1539381234044" expanded="true" signature="3130:3132" ph="..." />
-                <marker date="1539381234044" expanded="true" signature="3419:3421" ph="..." />
-                <marker date="1539381234044" expanded="true" signature="3704:3706" ph="..." />
-                <marker date="1539381234044" expanded="true" signature="3986:3988" ph="..." />
-                <marker date="1539381234044" expanded="true" signature="4443:4445" ph="..." />
-                <marker date="1539381234044" expanded="true" signature="4491:4492" ph="..." />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/CalcKivy.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -92,6 +79,8 @@
       <list>
         <option value="$PROJECT_DIR$/Calculadora" />
         <option value="$PROJECT_DIR$/CalcVisual.py" />
+        <option value="$PROJECT_DIR$/CalcularVisual" />
+        <option value="$PROJECT_DIR$/CalcKivy.py" />
       </list>
     </option>
   </component>
@@ -160,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CalcVisual">
+  <component name="RunManager" selected="Python.CalcularVisual">
     <configuration name="CalcVisual" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Calc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,12 +192,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="CalcularVisual" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Calc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalcularVisual" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Calculadora" />
       <item itemvalue="Python.CalcVisual" />
+      <item itemvalue="Python.CalcularVisual" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CalcularVisual" />
         <item itemvalue="Python.CalcVisual" />
         <item itemvalue="Python.Calculadora" />
       </list>
@@ -240,7 +252,7 @@
     <frame x="623" y="0" width="926" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28796402" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28796402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -251,7 +263,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32819724" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32819724" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -275,23 +287,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalcVisual.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="153" column="14" lean-forward="true" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalcularVisual">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="e#234#255#0" expanded="true" />
-            <marker date="1539381234044" expanded="true" signature="303:304" ph="..." />
-            <marker date="1539381234044" expanded="true" signature="337:338" ph="..." />
-            <marker date="1539381234044" expanded="true" signature="337:347" ph="..." />
-            <marker date="1539381234044" expanded="true" signature="2844:2847" ph="..." />
-            <marker date="1539381234044" expanded="true" signature="3130:3132" ph="..." />
-            <marker date="1539381234044" expanded="true" signature="3419:3421" ph="..." />
-            <marker date="1539381234044" expanded="true" signature="3704:3706" ph="..." />
-            <marker date="1539381234044" expanded="true" signature="3986:3988" ph="..." />
-            <marker date="1539381234044" expanded="true" signature="4443:4445" ph="..." />
-            <marker date="1539381234044" expanded="true" signature="4491:4492" ph="..." />
+            <element signature="e#232#252#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalcularVisual.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#232#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculadora.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="107" column="19" lean-forward="true" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalcKivy.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
