@@ -9,8 +9,7 @@ __license__ = 'GPL, GNU Public License'
 __author__ = 'Leonardo Gregianin'
 __credits__ = 'http://doc.async.com.br/python/Tkinter/index.htm'
 
-import Tkinter as tk
-from Tkinter import *
+from tkinter import *
 from math import *
 import sys
 

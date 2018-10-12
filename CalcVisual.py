@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-from Tkinter import *
+from tkinter import *
 
 class Calculadora:
     def __init__(self, master):
