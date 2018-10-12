@@ -23,7 +23,8 @@ while True:
     else:
         Total = "Operação não Existe!!!"
         print(Total)
-
+    # Só entra na conta caso seja digitado o operador correto e os numeros validos
+    # Operadores que fazem as operações.
     if (op=="+"):
         total=n1+n2
         print(total)
