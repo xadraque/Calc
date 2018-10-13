@@ -2,18 +2,18 @@
 
 from tkinter import *
 
-class Calculadora:
+class Calculadora(object):
     def __init__(self, master):
         self.frame = Frame(master)
-        self.frame.grid()
         self.dados = Entry(master, width=34)
         self.dados.grid(row=1,column=0)
+        self.frame.grid()
         bts = ["0","1","2","3","4","5","6","7","8","9","+","-","*","/","=","C"]
         r=1
         c=0
         for bt in bts:
             comando = lambda x=bt:self.calcular(x)
-            self.botao = Button(self.frame,text=bt,width=6,comando=comando)
+            self.botao = Button(self.frame,text=bt,width=6,command=comando)
             self.botao.grid(row=r,column=c)
             c += 1
             if c > 3:

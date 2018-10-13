@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3cc17ed3-6244-48c8-92ce-b24337f34a0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalcVisual.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalcVisual.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,33 +15,34 @@
     <session id="-73647271">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Calculadora" value="1" />
           <entry key="CalcularVisual" value="2" />
-          <entry key="py" value="13" />
+          <entry key="py" value="15" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="16" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3982" />
+          <entry key="Python" value="4033" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -48,16 +50,37 @@
         <counts>
           <entry key="Calculadora" value="2810" />
           <entry key="CalcularVisual" value="1" />
-          <entry key="py" value="1171" />
+          <entry key="py" value="1222" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalcKivy.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalcVis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2397">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
+              <folding>
+                <element signature="e#232#253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CalcVisual.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -85,10 +108,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="536" />
-    <option name="y" value="1" />
-    <option name="width" value="1159" />
-    <option name="height" value="979" />
+    <option name="x" value="812" />
+    <option name="y" value="68" />
+    <option name="width" value="1160" />
+    <option name="height" value="964" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -137,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CalcVis.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -157,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CalcVis">
+  <component name="RunManager" selected="Python.CalcVisual">
     <configuration name="CalcVis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Calc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,9 +295,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.CalcVis" />
         <item itemvalue="Python.CalcVisual" />
         <item itemvalue="Python.CalcularVisual" />
+        <item itemvalue="Python.CalcVis" />
         <item itemvalue="Python.Calculadora (1)" />
         <item itemvalue="Python.Calculadora" />
       </list>
@@ -303,20 +326,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="429" y="1" width="927" height="783" extended-state="0" />
+    <frame x="650" y="55" width="928" height="771" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28764045" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28731763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3276923" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3338558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3276923" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32718894" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -340,16 +364,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalcularVisual.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-end-line="155" selection-end-column="14" />
-          <folding>
-            <element signature="e#235#256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CalcularVisual.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -357,9 +372,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CalcKivy.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CalcVis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="2397">
           <caret line="141" selection-start-line="141" selection-end-line="141" />
           <folding>
             <element signature="e#232#253#0" expanded="true" />
@@ -369,13 +387,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalcVisual.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="309">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalcKivy.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
